@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Bridging the gap among community phylogenetics, biogeography and macroevolution: moving from patterns to process</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Gabriel Nakamura, Ph.D (Postdoctoral Research Associate - Daru Lab - Texas A&amp;M University Corpus Christi)" />
+    <meta name="date" content="2022-03-15" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <meta name="description" content="10 min talk to lab meeting with Dr. Scott Edwards from Harvard University"/>
+    <meta name="generator" content="xaringan and remark.js"/>
+    <meta name="github-repo" content="GabrielNakamura/presentation-SEdwardsVisit"/>
+    <meta name="twitter:title" content="Bridging the gap among community phylogenetics, biogeography and macroevolution"/>
+    <meta name="twitter:description" content="10 min talk to lab meeting with Dr. Scott Edwards from Harvard University"/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:image:alt" content="The first slide features the presentation tile with a figure centered on the top illustrating an antique world map"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta property="og:title" content="Bridging the gap among community phylogenetics, biogeography and macroevolution"/>
+    <meta property="og:description" content="10 min talk to lab meeting with Dr. Scott Edwards from Harvard University"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:image:alt" content="The first slide features the presentation tile with a figure centered on the top illustrating an antique world map"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_US"/>
+    <link rel="stylesheet" href="assets/css/my-theme.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/my-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/extra.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+layout: true
+
+---
+
+class: title-slide, center, bottom
+
+# Bridging the gap among community phylogenetics, biogeography and macroevolution: moving from patterns to process
+
+##  
+
+### Gabriel Nakamura, Ph.D (Postdoctoral Research Associate - Daru Lab - Texas A&amp;M University Corpus Christi)
+
+---
+name: clouds
+class: center, middle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+
+
+???
+Thank you everyone for the presence. Im gonna briefly present the work that Ive been developing as a postdoctoral research here at Texas A&amp;M and under the supervision of Dr. Daru
+
+---
+template: clouds
+
+## Time travel
+
+???
+So to start, this is basically one of the things that must fascinate, the possibility to go back to the past and, based on this, understand what we have in the present days. This inhabits our minds for decades
+
+
+---
+
+name: clouds
+class: center, middle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Time travel
+
+.pull-left[
+&lt;img src="images/Wonderful_Life_movie.jpeg" title="A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour" alt="A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour" width="100%" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/back_to_the_future.jpeg" title="A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour" alt="A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour" width="100%" /&gt;
+]
+
+???
+For example, take a look of this picture, and the conclusion is pretty clear. We can understand what happened before just looking at a tiny timeslice
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Travelling to the past to understand the present....
+
+
+&lt;img src="images/photo-album.jpeg" title="A black and white family album." alt="A black and white family album." width="50%" /&gt;
+
+
+???
+So, specially from the 90's, the ecological research started to try to get information that can help to understand both current and past processes that influence biodiversity, in other words, instead looking at only present day information the researchers started to find some ways to understand events that occurred in deep past, for example, diversification, historical dispersal.
+Therefore, instead of looking at only specific timeslices, we started to look at data Like a family album, so with the information contained in photos from the past we can better understand the context of the most recent events (photographs)
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+
+## The nature's photograph album
+
+&lt;img src="images/phylogeny.png" title="A phylogenetic tree with colors indicating the fish families" alt="A phylogenetic tree with colors indicating the fish families" width="70%" /&gt;
+
+???
+And, which information represent this "family" album to understand the past when we are talking about nature... basically is the phylogenetic information
+
+---
+
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Phylogenetic history + Patterns of distibution of species = More comprehensive view of nature?
+
+???
+So, based on this rationale ecological studies started to incorporate the information of evolutionary history into the distribution of present day species, with the desire to better understand the role historical processes in assemblages and regions.
+
+---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Phylogenies + Data in assemblage scale (local/regional)
+
+.pull-left[
+- Assemblages with species with **similar evolutionary history** (clustered) -&gt; effects of **diversification**
+
+- Assemblages with species with **distinct evolutionary history** (overdispersed) -&gt; effects of **dispersal**
+]
+
+
+.pull-right[
+&lt;img src="images/crouch_Ecog.png" title="Figure from Crouch et al article showing two phylogenetic trees at the top and the 10 species distributed on two different islands" alt="Figure from Crouch et al article showing two phylogenetic trees at the top and the 10 species distributed on two different islands" width="100%" /&gt;
+]
+
+???
+
+To understand if this evolutionary information coupled with community data can help us understanding large scale patterns lets see this example, this is a figure extracted from an article published in Ecography in 2018 and express the commom rationale used to interpret patterns of diversity in communities. The authors hypothesize that 
+if we analyze the phylogenetic patterns in communities we are gonna be able to make some inferences about the importance of speciation versus dispersal events.
+The authors basically state...
+"greater in situ speciation will create a greater number of shorter branches within a community, where as dispersal will increase the number of long branches in a community as a result of more disparately related species being included"
+
+---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## However... Does the phylogenetic information on assemblages reveal the past?
+
+
+???
+By just looking at the current patterns of phylogenetic distribution, is it really possible
+to adequatedly appreciate the role of past events, like in situ speciation and historical dispersal? I.e looking only for the present day patterns, is it possible to understand the past?
+
+---
+
+#### Sometimes, under some assumptions
+
+.center[
+.pull-left[
+.middle[
+- All ancestors of present day species were always in **the same place (or biome/region)**
+
+- The **dispersal is a characteristic that is conserved** along the phylogeny
+
+- The **potential of speciation is always conserved** along the phylogeny
+
+]
+]
+]
+
+???
+If the patterns relative to phylogenetic diversity mentioned above can truly reveal the role of past events those assumptions must be met, resulting in the following pattern.. 
+
+
+.center[
+.pull-right[
+
+&lt;img src="images/modif_crouch_ecog.png" title="A figure showing two phylogenies at the top and two islands at the bottom. Species from phylogeny present a clustered pattern in one island and a overdispersed pattern in another" alt="A figure showing two phylogenies at the top and two islands at the bottom. Species from phylogeny present a clustered pattern in one island and a overdispersed pattern in another" width="90%" /&gt;
+
+]
+]
+
+???
+All ancestors must be present in the same areas of the present day species in case of clustered patterns, and in case of overdispersed communities (island 2), traits associated with dispersion also must be conserved in these communities
+In other words, the traits associated with speciation processes must be always!!! conserved
+The ancestors of present day species should have been at the same place as the current species. Using a more technical jargon, the area of distribution must be conserved to observe a in situ speciation event, and also, the capacity of dispersal of ancestors.
+But.... Is that the way nature works? How can we know where the ancestral was by just looking at the evolutionary relationship among species and their current distribution?
+Can other past scenarios produce the same phylogenetic structure we see today?
+
+---
+
+## Different scenarios...
+
+.pull-left[
+- **Dispersion** can play an important role
+
+- As well as **in situ diversification**
+
+- Specially if the traits associated with area occupation **are not conserved in phylogeny**
+
+]
+
+
+.pull-right[
+&lt;img src="images/crouch_broken_premise.png" title="A phylogenet tree in which species on the tip are conected by lines to two different islands" alt="A phylogenet tree in which species on the tip are conected by lines to two different islands" width="90%" /&gt;
+]
+
+???
+Just to simplify lets focus on clustered patterns, that must indicate the importance of speciation. An alternative situation can be the following. Looking at the same islands, with the same communities and the same current distribution of species as the previous Figure, but with the difference that we can see the areas in which the ancestors were in the past, and for island two we can see that even presenting closed related species, the historical dispersal plays an important role in determining present day communities
+
+---
+## Different scenarios...
+
+.pull-left[
+- **Dispersion** can play an important role
+
+- As well as **in situ diversification**
+
+- Specially if the traits associated with area occupation **are not conserved in phylogeny**
+
+]
+
+
+.pull-right[
+&lt;img src="images/crouch_broken_premise2.png" title="A phylogenet tree in which species on the tip are conected by lines to two different islands in a slightly different way than the previous figure" alt="A phylogenet tree in which species on the tip are conected by lines to two different islands in a slightly different way than the previous figure" width="90%" /&gt;
+]
+
+???
+This is one more example of a different historical process generating the same present day pattern regarding phylogenetic community structure in the same islands.
+
+---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## How to differentiate different processes that can produce similar patterns?
+
+&lt;img src="images/diff_scenario_same_metric.png" title="A phylogenet tree in which species on the tip are conected by lines to two different islands in a slightly different way than the previous figure" alt="A phylogenet tree in which species on the tip are conected by lines to two different islands in a slightly different way than the previous figure" width="90%" /&gt;
+
+???
+So, how can we differentiate different scenarios with identical patterns? This approach is enoght to understand the role of past events on current distribution of biological diversity? What we are missing? What can we do to unambiguously detect the processes generating patterns of biodiversity?
+
+---
+## The importance to look at the deep past
+
+
+.pull-left[
+
+- The deep past provides a **complementary** vision history
+
+- For example, using **fossils**
+
+- But... fossils are scarce, so we can use **character reconstruction models**
+
+]
+
+???
+Based on fossils we could reconstruct some aspects of ecological factors in the past. However, fossils are scarce, making difficult to reconstruct the history of life for a number of species. So, we can rely on methods of character evolution, or character reconstruction, specifically we can rely on methods that are able to estimate the places in which ancestors of present day species were in the past. 
+
+--
+
+.pull-right[
+
+&lt;img src="images/photo_past.png" title="A photo album with figures of species from the Cambrian period, mixed up with present day invertebrate species and Black and white photos of people" alt="A photo album with figures of species from the Cambrian period, mixed up with present day invertebrate species and Black and white photos of people" width="100%" /&gt;
+
+]
+
+???
+With the information from ancestral area reconstruction we can understand better the events looking at different time frames, not just one, like in a photograph album in which we can see photos from both present and the past, instead to assume any premisse. So, basically, the ancestral character reconstruction offer to us the opportunity to travel in time and look at the deep past.
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## How to merge character evoution methods with common metrics used in Community phylogenetics to understand local and large scale patterns?
+
+???
+So, the question is, if the metrics of phylogenetic diversity cannot offer a reliable interpretation of past events shaping biological assemblages, how can we consider the evolutionary history acting in different scales, particularly a regional/local scale?
+
+---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Towards the development of model-based phylogenetic metrics 
+
+???
+Basically, one possible way would be merge the information that comes from the ancestral area reconstruction with the metrics of diversity measured in the assemblage scale. So, how does this can be done?
+
+---
+
+## How can we differentiate between historical dispersal and diversification (speciation + extinction)
+
+.pull-left[
+- estimating the range of species through **ancestral area reconstruction**
+
+- **decomposing** the amount of evolutionary history that comes from **dispersal events** and from **diversification**
+]
+
+???
+Basically, the diversity metrics measured at local or regional scales cannot differentiate between processes associated with dispersal and diversification. So, we could first, estimate the range of species through ancestral area reconstruction, and based on this reconstruction we can decompose the evolutionary history of set of species based on the amount of this evolutionary history that emerged from dispersal events, and the amount of evolutionary history that emerged from diversification processes
+
+--
+
+.pull-right[
+&lt;img src="images/methods_metrics.png" title="A painting illustrating Darwin's finches" alt="A painting illustrating Darwin's finches" width="100%" /&gt;
+]
+
+???
+Using the same example used before. If we first run a model of ancestral area reconstuction and discover this type of scenario represented in this figure. We will be able to understand that for island 1, despite presenting a clustered phylgoenetic structure, the diversification plays only a small role in shaping this community. With a model based metrics we could be able to see that island 1 present much less influence of diversification processes than island two, even with a clustered pattern.
+
+
+---
+
+## What does this approach brings as new information
+
+.pull-left[
+- More direct and **realistic estimate of evolutionary dynamics** in assemblages
+
+- **Link between patterns and processes** generating biodiversity
+
+- **Unambiguous interpretation** and better decisions regarding **long term conservation actions**
+]
+
+???
+So, what the advantadges of this proposition when compared with the previous approaches? First, it brings a more realistic estimate of evolutionary dynamics by explicitly incorporate a macroevolutionary model in the calculation of metrics of phylogenetic diversity. Allowing to stablish a direct connection between patterns and the processes responsible for them, and, consequently, providing more confidence in the interpratation of those patterns.
+
+--
+
+.pull-right[
+&lt;img src="images/PE_dbPE.png" title="Maps with metrics of Phylogenetic Endemism and a model based version of the same metric" alt="Maps with metrics of Phylogenetic Endemism and a model based version of the same metric" width="100%" /&gt;
+]
+
+???
+For example, just to illustrate the possible use of this approach, in the left side is a spatial representation of how evolutionary unique assemblages of bird species are in the Americas, based on a measure of Phylogenetic Endemism. As any measure avaiable, the original formulation assumes the same premisses discussed before. On the right side we have a version of the same metric of phylogenetic endemism, but now calculated considering how in-situ diversification are responsible to generate patterns of phylgoenetic endemism.  Basically this means that, community with high values of PE model based represent areas with unique spatial information generated exclusively in that biome in which the assemblage are classified.
+
+---
+
+## Differences between traditional approaches and model-based metrics
+
+&lt;img src="images/highlight_PE_amazon.png" title="A painting illustrating Darwin's finches" alt="A painting illustrating Darwin's finches" width="90%" /&gt;
+
+???
+Here we can see that looking at just the traditional metrics we can see that we take the risk to underestimate the role of amazon assemblages in maintain through time the phylogenetic endemism for these bird assemblages. Since Amazon corresponds to a region in which the phylgoeentic endemism is almost all genereted through in-situ speciation
+
+---
+## Application in regionalization schemes
+
+
+.pull-left[
+
+Understanding the role of **historical dispersion** and different regions in regionalization schemes
+
+]
+
+.pull-right[
+&lt;img src="images/disp_from.png" title="a plate with multiple maps showing the proportion of dispersal of each region" alt="a plate with multiple maps showing the proportion of dispersal of each region" width="100%" height="100%" /&gt;
+]
+
+???
+For example, instead of only look at different regions based on a shared evolutionary history we can map the contribution of each region to others, as in this figure. Again, in this scheme we can see how is important the maitenance of amazon assemblages to guarantee the persistence of biodiversity of other regions, since most of the ancestors of present day communities in other regions comes from species originated in amazon.
+
+---
+## Application in regionalization schemes
+
+&lt;img src="images/disp_from.png" title="a plate with multiple maps showing the proportion of dispersal of each region" alt="a plate with multiple maps showing the proportion of dispersal of each region" width="90%" /&gt;
+
+???
+In a closer look we can see how much each biome contributes as a source of species to other biomes, for example, the Amazon biome contribures mainly as a source of species to biomes in the central america 
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Main contributions
+
+
+.midle[
+- Theoretical perspective: directly assessment of **deep time processes**
+
+- Practical: conservation decision can be based on **both patterns and processes**
+
+]
+
+???
+So, finalizing this presentation, basically this approach can contribute in two different perspectives, first, from a theoretical perspective it contributes to directly assess the role of deep time process, instead of inferring them indirectly using present day patterns. In a practical perspective it helps to incorporate important processes required to maintain the biodiversity in long term temporal scales.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLanguage": ["r", "css", "yaml"],
+"slideNumberFormat": "",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
