@@ -85,13 +85,13 @@ background-size: cover
 ## Time travel
 
 .pull-left[
-```{r echo=FALSE, out.width="50%", fig.alt= "A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour"}
+```{r echo=FALSE, out.width="60%", fig.alt= "A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour"}
  knitr::include_graphics("images/Wonderful_Life_movie.jpeg")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width="50%", fig.alt= "A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour"}
+```{r echo=FALSE, out.width="60%", fig.alt= "A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour"}
  knitr::include_graphics("images/back_to_the_future.jpeg")
 ```
 ]
@@ -104,9 +104,51 @@ For example, take a look of this picture, and the conclusion is pretty clear. We
 ## The importance of the past
 
 .pull-left[
-```{r echo=FALSE, out.width="50%", fig.alt= "A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour"}
- knitr::include_graphics("images/back_to_the_future.jpeg")
+```{r echo=FALSE, out.width="100%", fig.alt= "A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour"}
+ knitr::include_graphics("images/Herodotus.jpeg")
 ```
+]
+
+.pull-right[
+- Curiosity
+
+- Understanding of **current events based on previous events**
+
+- Predict future events
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ecology as a historical science
+
+.pull-left[
+```{r echo=FALSE, out.width="100%", fig.alt= "A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour"}
+
+knitr::include_graphics("images/pyron_geb.png")
+
+```
+
+```{r echo=FALSE, out.width="100%", fig.alt= "A a photo with a dog and white flour on the sofa. The dog is with his mouth full of flour"}
+
+knitr::include_graphics("images/article_deep_past.png")
+
+```
+]
+
+.pull-right[
+
+- The importance of **historical events on macroevolutionary patterns**
+
+- **Community phylogenetics** as a promise to bridge the gap among deep past and present day factors
+
+
+- But....
+
 ]
 
 
@@ -116,7 +158,7 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Travelling to the past to understand the present....
+## 
 
 
 ```{r echo=FALSE, out.width="50%", fig.alt= "A black and white family album."}
