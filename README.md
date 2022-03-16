@@ -1,9 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Invited lecture in Biogeography class
-
-## Bridging the gap among community phylogenetics, biogeography and macroevolution: moving from patterns to process
+## Bridging the gap among community phylogenetics, biogeography and macroevolution
 
 ### Outline
 
